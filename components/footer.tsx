@@ -128,9 +128,9 @@ export function Footer() {
             <div className="text-sm text-gray-400">© 2025 CHBigWin.com - Alle Rechte vorbehalten</div>
           </div>
 
-          <div className="mt-4 text-xs text-gray-400 leading-relaxed">
-            Diese Website bewirbt EuroDreams auf der Grundlage einer Zusammenarbeit mit dem lizenzierten Betreiber
-            Swisslos Interkantonale Landeslotterie und arbeitet nach den Regeln der Schweizer Glücksspielaufsicht
+          <div className="mt-4 text-md text-gray-400 leading-relaxed">
+            Diese Website bewirbt <strong className="font-bold text-green-600">EuroDreams</strong> auf der Grundlage einer Zusammenarbeit mit dem lizenzierten Betreiber
+            {" "}<strong className="font-bold text-green-600">Swisslos Interkantonale Landeslotterie</strong> und arbeitet nach den Regeln der Schweizer Glücksspielaufsicht
             (GESPA), die Rechtsnachfolgerin der ehemaligen Lotterie- und Wettkommission (Comlot) ist.
           </div>
         </div>

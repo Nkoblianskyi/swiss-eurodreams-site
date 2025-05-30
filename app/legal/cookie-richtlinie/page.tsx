@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowLeft, Download, Shield, Settings, Cookie } from "lucide-react"
 import Image from "next/image"
+import { Footer } from "@/components/footer"
 
 export default function CookieRichtliniePage() {
   return (
@@ -26,25 +27,6 @@ export default function CookieRichtliniePage() {
             </div>
           </div>
 
-          <div className="flex items-center gap-4">
-            <Image
-              src="/images/eurodreams-logo.png"
-              alt="EuroDreams Logo"
-              width={40}
-              height={40}
-              className="animate-pulse"
-            />
-            <div className="flex gap-3">
-              <a
-                href="/documents/Cookie-Richtlinie.pdf"
-                download="Cookie-Richtlinie.pdf"
-                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                <Download className="w-4 h-4 mr-2" />
-                PDF herunterladen
-              </a>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -140,24 +122,13 @@ export default function CookieRichtliniePage() {
               <li>Recht auf Änderung Ihrer Einstellungen</li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Kontakt</h2>
-            <p className="text-gray-700 mb-4">Bei Fragen zu unserer Cookie-Richtlinie kontaktieren Sie uns:</p>
-            <div className="bg-gray-50 p-4 rounded-lg">
-              <p className="text-gray-700">
-                <strong>E-Mail:</strong> datenschutz@chbigwin.com
-                <br />
-                <strong>Telefon:</strong> +41 31 123 45 67
-                <br />
-                <strong>Adresse:</strong> Musterstrasse 123, 3000 Bern, Schweiz
-              </p>
-            </div>
-
             <div className="mt-8 pt-6 border-t border-gray-200">
               <p className="text-sm text-gray-500">Letzte Aktualisierung: {new Date().toLocaleDateString("de-CH")}</p>
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
