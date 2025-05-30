@@ -227,7 +227,7 @@ export default function TeilnahmebedingungenPage() {
                 <br />
                 Telefon: 061 284 11 11
                 <br />
-                E-Mail: info@swisslos.ch
+                E-Mail: media@swisslos.ch
               </p>
             </div>
 
